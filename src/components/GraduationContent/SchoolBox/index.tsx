@@ -2,6 +2,7 @@ import { Box, Button, Flex, Heading, VStack, Text } from "@chakra-ui/react";
 import React from "react";
 
 
+
 interface SchoolBoxProps {
     name: string;
     course: string;
@@ -23,7 +24,7 @@ export default function SchoolBox({ name, course, grade, initial, final }: Schoo
                         <Text fontWeight="400" fontSize="xs">De: {initial}</Text>
                         <Text fontWeight="400" fontSize="xs">Até: {final}</Text>
                     </VStack>
-                    <Button colorScheme="purple">Saiba mais</Button>
+                    <Button colorScheme="purple" _focus={{ outline: 0 }}>Saiba mais</Button>
                 </VStack>
             </Box>
         </>
