@@ -1,5 +1,4 @@
-import { Box, Flex, Heading, Text } from "@chakra-ui/react";
-import { Head } from "next/document";
+import { Box, Button, Flex, Heading, VStack, Text } from "@chakra-ui/react";
 import React from "react";
 
 
@@ -16,11 +15,16 @@ export default function SchoolBox({ name, course, grade, initial, final }: Schoo
     return (
         <>
             <Box bg="gray.700" w="45%" h="auto" borderRadius="10px" textAlign="center" py="20px">
-                <Text fontSize="1xl">{name}</Text>
-                <Text fontSize="2xl" fontWeight="bold">{course}</Text>
-                <Text fontWeight="bold">{grade}</Text>
-                <Text fontWeight="400" fontSize="xs">{initial}</Text>
-                <Text fontWeight="400" fontSize="xs">{final}</Text>
+                <VStack>
+                    <Text fontSize="1xl">{name}</Text>
+                    <Text fontSize="3xl" fontWeight="bold">{course}</Text>
+                    <VStack spacing="0">
+                        <Text fontWeight="bold">{grade}</Text>
+                        <Text fontWeight="400" fontSize="xs">De: {initial}</Text>
+                        <Text fontWeight="400" fontSize="xs">Até: {final}</Text>
+                    </VStack>
+                    <Button colorScheme="purple">Saiba mais</Button>
+                </VStack>
             </Box>
         </>
 

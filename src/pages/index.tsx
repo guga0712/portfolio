@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
-import AboutMeContent from "../components/AboutMeContent";
+import Head from "next/head";
+import React from "react";
 import GraduationContent from "../components/GraduationContent";
-import SchoolBox from "../components/GraduationContent/SchoolBox";
+import Introduction from "../components/Introduction";
 
 
 
@@ -10,7 +10,11 @@ export default function Home() {
 
   return (
     <>
-      <AboutMeContent />
+      <Head>
+        <title>Meu Portfólio</title>
+      </Head>
+
+      <Introduction />
       <GraduationContent />
     </>
   )

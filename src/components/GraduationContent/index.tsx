@@ -12,10 +12,10 @@ export default function GraduationContent() {
     return (
         <>
             <Flex justifyContent="center" gap="100" align="center" width="100%" height="100vh" flexDirection="column">
-                <Heading data-aos="fade-up" data-aos-duration="200">Formação</Heading>
-                <Flex data-aos="fade-up" data-aos-duration="500" justifyContent="space-between" align="center" width="70%" height="min-content" flexDirection="row">
-                    <SchoolBox name="Unip" course="Ciencia da computacao" grade="Bacharel" initial="2018" final="2021" />
-                    <SchoolBox name="Etec" course="Automação industrial" grade="Técnico" initial="2018" final="2019" />
+                <Heading data-aos="fade-up" data-aos-duration="400" >Formação</Heading>
+                <Flex data-aos="fade-up" data-aos-duration="400" data-aos-delay="200" justifyContent="space-between" align="center" width="1000px" height="min-content" flexDirection="row">
+                    <SchoolBox name="ETEC Martin Luther King" course="Automação industrial" grade="Técnico" initial="2018" final="2019" />
+                    <SchoolBox name="Universidade Paulista" course="Ciência da Computação" grade="Bacharel" initial="2018" final="2021" />
                 </Flex>
             </Flex>
         </>
