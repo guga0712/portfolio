@@ -6,8 +6,8 @@ export default function AboutMe() {
         <Flex justifyContent="center" gap="100" align="center" width="100%" height="100vh" flexDirection="column">
             <Heading data-aos="fade-up" data-aos-duration="400" >Sobre mim</Heading>
             <Flex data-aos="fade-up" data-aos-duration="400" data-aos-delay="200" justifyContent="space-between" align="center" width="1000px" height="min-content" flexDirection="row">
-                <Text width="50%" fontWeight='400' fontSize='20px'>Formado em Automação Industrial e Ciência da Computação, trabalhei no <Text color={'purple.400'} as={'span'} fontWeight="700">Hotel Holiday Inn Anhembi</Text>, exercendo o suporte <Text color={'purple.400'} as={'span'} fontWeight="700">Help-desk</Text> e demais atividades como manutenção de computadores, configuração de rede e servidores.
-                    <br /><br />Atualmente trabalho como <Text color={'purple.400'} as={'span'} fontWeight="700">Head of Technical Support</Text> na <Text color={'purple.400'} as={'span'} fontWeight="700">Up Agency Brasil</Text>, buscando soluções de problemas recorrentes e realizando migrações entre plataformas de E-commerce. <br /><br /><Text fontWeight='600' fontSize='25px'>Curiosidades</Text><Text>Curto videogames e toco violão</Text></Text>
+                <Text width="50%" fontWeight='400' fontSize='20px'>Formado em Automação Industrial e Ciência da Computação, trabalhei no Hotel Holiday Inn Anhembi, exercendo o suporte Help-desk e demais atividades como manutenção de computadores, configuração de rede e servidores.
+                    <br /><br />Atualmente trabalho como Head of Technical Support na Up Agency Brasil, buscando soluções de problemas recorrentes e realizando migrações entre plataformas de E-commerce.</Text>
                 <Image
                     borderRadius='full'
                     boxSize='300px'
